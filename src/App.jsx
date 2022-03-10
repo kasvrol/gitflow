@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import './css/botoes.scss'
 
 function App() {
   const [count, setCount] = useState(0)

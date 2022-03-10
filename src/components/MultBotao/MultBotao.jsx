@@ -1,7 +1,7 @@
 import React from "react";
 import Botoes from "../Botoes/Botoes";
 
-function DivBotao(){
+function MultBotao(){
 return(
     <Botoes onClick={() => console.log('You just clicked')} >
         ❌
@@ -10,4 +10,4 @@ return(
 
 }
 
-export default DivBotao;
+export default MultBotao;

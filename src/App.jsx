@@ -1,18 +1,14 @@
 import { useState } from 'react'
-import './App.css'
-import './css/botoes.scss'
 import CascoDaCalculadora from './components/CascoDaCalculadora/CascoDaCalculadora'
+import './css/botoes.scss'
+import './css/cascoDaCalculadora.scss'
+import './css/visor.scss'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <header>
-        <p>Hello, it's me</p>
         <CascoDaCalculadora/>
-      </header>
-    </div>
   )
 }
 

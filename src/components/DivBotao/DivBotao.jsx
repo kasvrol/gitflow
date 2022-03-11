@@ -1,9 +1,13 @@
 import React from "react";
 import Botoes from "../Botoes/Botoes";
 
+function Divisao(primeiroNumeroDigitado, segundoNumeroDigitado){
+    segundoNumeroDigitado == 0? "!Existe" : primeiroNumeroDigitado/segundoNumeroDigitado
+}
+
 function DivBotao(){
 return(
-    <Botoes onClick={() => console.log('You just clicked')} >
+    <Botoes onClick={() => Divisao()} >
         ➗
     </Botoes>
 )

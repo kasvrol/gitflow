@@ -1,25 +1,23 @@
-import React from "react";
+import React, {useState} from "react";
 import Numeros from '../NumBotoes/NumBotoes'
 
 function Visor () {
 
-    const visorValor = ( valor ) => {
+    const [ numeros, setNumeros ] = useState(0)
 
-        valor
+    const visorNumeroDigitado = ( NumeroDigitado ) => {
 
-    }
+        NumeroDigitado = Numeros.NumeroDigitado
 
-    const visorResultado = ( resultado ) => {
-
-        resultado
+        setNumeros[NumeroDigitado]
 
     }
 
     return (
 
         <section className="visor-da-calculadora">
-            <spam>{ visorValor() }</spam>
-            <spam>{ visorResultado() }</spam>
+            <spam>{ numeros }</spam>
+            <spam>{ visorNumeroDigitado }</spam>
         </section>
 
     )

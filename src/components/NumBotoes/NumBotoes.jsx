@@ -3,7 +3,7 @@ import Botoes from "../Botoes/Botoes";
 
 function NumBotoes(){
 return(
-    <>
+    <div className="btn-numeros">
         <section>
             <Botoes onClick={() => console.log('You just clicked')} >
                 1
@@ -42,7 +42,7 @@ return(
                 0
             </Botoes>
         </section>
-    </>
+    </div>
 )
 
 }

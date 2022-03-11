@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react'
 import Botoes from "../Botoes/Botoes";
 
-function Soma (primeiroNumeroDigitado, segundoNumeroDigitado) {
-
-    return primeiroNumeroDigitado+segundoNumeroDigitado;
-
-}
-
 function SomaBotao() {
+
+    const Soma = (primeiroNumeroDigitado, segundoNumeroDigitado) => {
+
+        return primeiroNumeroDigitado+segundoNumeroDigitado;
+    
+    }
 
     return (
 
         <Botoes onClick={() => Soma ()} >
             ➕
         </Botoes>
-        
+
     )
 
 }

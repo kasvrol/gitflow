@@ -1,11 +1,28 @@
 import React from "react";
+import Numeros from '../NumBotoes/NumBotoes'
 
-function Visor(){
-return(
-    <section className="visor-da-calculadora">
-        <p>AAAAAAAA</p>
-    </section>
-)
+function Visor () {
+
+    const visorValor = ( valor ) => {
+
+        valor
+
+    }
+
+    const visorResultado = ( resultado ) => {
+
+        resultado
+
+    }
+
+    return (
+
+        <section className="visor-da-calculadora">
+            <spam>{ visorValor() }</spam>
+            <spam>{ visorResultado() }</spam>
+        </section>
+
+    )
 
 }
 

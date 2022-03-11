@@ -1,0 +1,19 @@
+@mixin botao() {
+    text-align: center;
+    border-radius: 20%;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    margin: .2em;
+}
+
+@mixin row() {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin column() {
+    display: flex;
+    flex-direction: column;
+}

@@ -14,7 +14,7 @@ function MultBotao () {
     return (
 
         <Botoes onClick={() => Multiplicacao()} >
-            ❌
+            x
         </Botoes>
 
     )

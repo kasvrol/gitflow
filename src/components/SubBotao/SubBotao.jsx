@@ -12,7 +12,7 @@ function SubBotao() {
     return (
 
         <Botoes onClick={() => Subtracao ()} >
-            ➖
+            --
         </Botoes>
 
     )

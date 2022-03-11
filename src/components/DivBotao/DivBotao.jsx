@@ -12,7 +12,7 @@ function DivBotao() {
     return (
 
         <Botoes onClick={() => Divisao()} >
-            ➗
+            ÷ 
         </Botoes>
 
     )

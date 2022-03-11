@@ -12,7 +12,7 @@ function SomaBotao() {
     return (
 
         <Botoes onClick={() => Soma ()} >
-            ➕
+            +
         </Botoes>
 
     )

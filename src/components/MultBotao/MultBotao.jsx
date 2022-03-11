@@ -1,12 +1,21 @@
-import React from "react";
 import Botoes from "../Botoes/Botoes";
 
+function Multiplicacao(primeiroNumeroDigitado, segundoNumeroDigitado) {
+
+    segundoNumeroDigitado == 0 || primeiroNumeroDigitado == 0 ? 
+    0 : primeiroNumeroDigitado/segundoNumeroDigitado
+
+}
+
 function MultBotao(){
-return(
-    <Botoes onClick={() => console.log('You just clicked')} >
-        ❌
-    </Botoes>
-)
+
+    return (
+
+        <Botoes onClick={() => Multiplicacao()} >
+            ❌
+        </Botoes>
+
+    )
 
 }
 

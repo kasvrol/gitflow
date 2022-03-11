@@ -1,1 +1,39 @@
 @import '_index.scss';
+
+button {
+
+    @include botao;
+
+}
+
+.btn-numeros {
+
+    @include column;
+    height: 50%;
+    align-items: center;
+    margin-right: 10%;
+
+}
+
+.btn-numeros section {
+
+    @include row;
+    justify-content: space-around;
+    margin: 6%;
+
+}
+
+.botoes-da-calculadora .numeros {
+
+    margin-right: 10%;
+    background:$btn-numeros-claros;
+    color: $numeros-claros;
+
+}
+
+.btn-funcoes-da-calculadora .funcoes {
+
+    background: $btn-funcoes-claras;
+    color:$funcoes-claras;
+
+}

@@ -9,9 +9,9 @@ import IgualBotao from "../IgualBotao/IgualBotao"
 
 function CascoDaCalculadora(){
 return(
-    <>
+    <div className="casco-da-calculadora">
         <Visor/>
-        <section className="botoes-da-calculadora">
+        <div className="botoes-da-calculadora">
             <NumBotoes/>
             <section className="btn-funcoes-da-calculadora">
                 <SomaBotao/>
@@ -20,8 +20,8 @@ return(
                 <DivBotao/>
                 <IgualBotao/>
             </section>
-        </section>
-    </>
+        </div>
+    </div>
 )
 
 }

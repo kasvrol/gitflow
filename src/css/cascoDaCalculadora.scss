@@ -1,0 +1,23 @@
+@import '_index.scss';
+
+.casco-da-calculadora {
+
+    @include column;
+    width: 40%;
+    transform: translate(50%, 30%);
+    background: $casca-da-calculadora-clara;
+}
+
+.casco-da-calculadora .botoes-da-calculadora {
+
+    @include row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.btn-funcoes-da-calculadora {
+
+    @include column;
+
+}

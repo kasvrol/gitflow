@@ -3,9 +3,10 @@
 .casco-da-calculadora {
 
     @include column;
-    width: 40%;
-    transform: translate(50%, 30%);
+    width: 45%;
+    transform: translate(60%, 30%);
     background: $casca-da-calculadora-clara;
+
 }
 
 .casco-da-calculadora .botoes-da-calculadora {
@@ -13,11 +14,14 @@
     @include row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    padding: 2%;
 
 }
 
 .btn-funcoes-da-calculadora {
 
     @include column;
+    justify-content: space-around;
+    margin: .5%;
 
 }

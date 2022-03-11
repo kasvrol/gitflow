@@ -11,7 +11,7 @@ button {
     @include column;
     height: 50%;
     align-items: center;
-    margin-right: 10%;
+    margin-right: -5%;
 
 }
 
@@ -27,6 +27,7 @@ button {
 
     margin-right: 10%;
     background:$btn-numeros-claros;
+    border-color: $borda-btn-numeros-claros;
     color: $numeros-claros;
 
 }
@@ -34,6 +35,8 @@ button {
 .btn-funcoes-da-calculadora .funcoes {
 
     background: $btn-funcoes-claras;
+    border-color: $borda-btn-funcoes-claras;
     color:$funcoes-claras;
+    margin-left: -7%;
 
 }

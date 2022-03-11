@@ -3,7 +3,7 @@ import React from "react";
 function Visor(){
 return(
     <section className="visor-da-calculadora">
-        AAAAAAAA
+        <p>AAAAAAAA</p>
     </section>
 )
 
